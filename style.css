@@ -1,0 +1,119 @@
+/* navbar section */
+.navbar {
+    position: fixed;
+    top:0%;
+
+    background-color: aliceblue;
+    width: 100%;
+    box-shadow: 0px 0px 8px rgb(0 0 0 /6%);
+
+}
+ul{
+    list-style: none;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 600;
+    margin-top: 0%;
+}
+li{
+    float:left;
+
+}
+li a{
+    display: block;
+    padding: 25px;
+    background-color: white;
+    text-decoration: none;
+    color: black;
+}
+/* banner section */
+.container{
+    width:100%;
+    margin: 2% 0%;
+    padding: 6% 0%;
+}
+.banner{
+    display:grid;
+    grid-template-columns: repeat(2,50%);
+    background-color: #dcdfb7;
+
+}
+.banner .image img{
+    width: 100%;
+    background-color:#929832 ;
+
+
+}
+.banner .content{
+    font-family: 'Dancing Script', cursive;
+    padding: 6% 0%;
+
+}
+.banner .content .title{
+    font-size: 50px;
+
+}
+.banner .content .title span{
+    font-weight: 800;
+}
+.banner .content .desc{
+    font-size: 26px;
+}
+.banner .content .btn{
+    background-color: #ae8b67;
+    color:white;
+    font-size:16px;
+    font-weight:700;
+    padding:2% 5%;
+    border-radius:30px;
+    cursor: pointer;
+    border:none;
+    font-family: 'Dancing Script', cursive;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,50%);
+
+}
+.about .image img{
+    width: 80%;
+}
+.about .content {
+    font-weight: 3%;
+    font-family: 'Dancing Script', cursive;
+    padding: 6% 22%;
+
+
+}
+.about .content .title{
+    font-weight: 700;
+}
+
+.grid-container{
+    display: grid;
+    background-color: #dcdfb7;
+    grid-template-columns: repeat(4,25%);
+    grid-row-gap: 10px;
+    grid-column-gap:20px;
+    border-bottom:2px solid #dcdfb7 ;
+
+}
+.grid-container h2{
+    text-align: center;
+}
+.grid-item{
+    font-size: 25px;
+    padding: 20px;
+    padding-top: 7px;
+    background-color: #dcdfb7;
+    text-align: center;
+    margin-top: -5%;
+    padding-top: 20px;
+}
+h2{
+    width: 100%;
+    margin-bottom: 0%;
+    background-color: #dcdfb7;
+    width: 100%;
+    text-align: center;
+    padding-bottom:20px ;
+}
